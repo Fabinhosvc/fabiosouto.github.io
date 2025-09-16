@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+	<meta charset="utf-8">
+	<title>Feedback</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/blue.css">
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+
+<div class="preloader">
+	<div class="sk-spinner sk-spinner-wordpress">
+       <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+<header>
+
+<nav class="nav">
+	<ul>
+		<li><a href="index.html">Home</a>
+        <li><a href="feedback.html">Feedback</a>
+	</ul>
+</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h1 class="tm-title bold shadow">Feedback</h1>
+				<h1 class="white bold shadow"> Por favor, envie seu feedback no formulário</h1>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+
+<section class="audio">
+        <audio controls autoplay loop>
+        <source src="audio\temadavitoria.mp3" type="audio/mpeg"><br>
+        Seu navegador não suporta o elemento de áudio.
+        </audio>
+</section>
+
+<section class="container">
+	<div class="row">
+		
+		<div class="col-md-12 col-sm-12">
+			<div class="experience">
+				<h2 class="white">Experiência</h2>
+					<div class="experience-content">
+						</div>
+                            <form name="feedback_form" id="feedback_form" method="post">
+                            <label>Como você avalia sua experiência?</label>
+                                <div class="mb-3 d-flex flex-row py-1">
+                                <div class="form-check mr-3">
+                                 <input class="form-check-input" type="radio" name="rating" id="rating_bad" value="bad">
+                                    <label class="form-check-label" for="rating_bad">Ruim</label>
+                                </div>
+                                <div class="form-check mx-3">
+                                 <input class="form-check-input" type="radio" name="rating" id="rating_good" value="good">
+                                    <label class="form-check-label" for="rating_good">Bom</label>
+                                </div>
+                                <div class="form-check mx-3">
+                                 <input class="form-check-input"  type="radio" name="rating" id="rating_excellent" value="excellent">
+                                    <label class="form-check-label" for="rating_excellent">Excelente</label>
+                                </div>
+                        </div>
+                        <div class="mb-4">
+                            <br>
+                         <label class="form-label"  for="feedback_comments">Comentários:</label>
+                            <textarea class="form-control" required rows="6" name="comments" placeholder="Digite aqui seu comentário" id="feedback_comments" ></textarea>
+                        </div>
+                        <div class="row">
+                        <div class="mb-4">
+                            <br>
+                            <label class="form-label" for="feedback_name">Seu nome:</label>
+                            <input type="text" required name="name" class="form-control" placeholder="Nome" id="feedback_name"/>
+                            </div>
+                            <div class="mb-4">
+                                <br>
+                                <label class="form-label" for="feedback_email">Email:</label>
+                                <input type="email" name="email" class="form-control" placeholder="email@exemplo.com" id="feedback_email"/>
+                            </div>
+                            <label>
+                                <br>
+                                <input type="checkbox" name="termos" required>
+                                Autorizo divulgação do feedback (obrigatório)
+                            </label>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-info btn-lg" >Enviar</button>
+                        </form>
+		    	</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<p>Copyright &copy; 2025 Meu Currículo</p>
+				<ul class="social-icons">
+                    <li><a href="https://www.linkedin.com/in/fabio-cruz-4a4305a5/" class="fa fa-linkedin"></a></li>
+					<li><a href="https://www.facebook.com/fabiosouto1984?locale=pt_BR" class="fa fa-facebook"></a></li>
+					<li><a href="https://www.instagram.com/fabinhosvc/" class="fa fa-instagram"></a></li>
+					<li><a href="https://github.com/Fabinhosvc" class="fa fa-github"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- javascript js -->	
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
